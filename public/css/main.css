@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Bauhaus93';
+    /* font-display: swap; */
+    src: url(/font/BAUHS93.woff2),
+         url(/font/BAUHS93.woff),
+         url(/font/BAUHS93.ttf);
+}
+:root {
+    --primary: #00afd1;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #00afd1;
+}
+ul {
+    list-style: none;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Bauhaus93';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: space-around;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #333;
+}
+.main-link {
+    text-align: center;
+    font-size: 6rem;
+}
+.logo {
+    position: absolute;
+    height: 30vw;
+    top: 0;
+    left: 0;
+}
+@media screen and (max-width: 800px) {
+    .main-link {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-link {
+        font-size: 2rem;
+    }
+}
