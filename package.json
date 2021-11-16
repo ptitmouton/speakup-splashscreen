@@ -24,7 +24,7 @@
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
     "@nestjs/typeorm": "^6.1.2",
-    "aws-sdk": "^2.490.0",
+    "aws-sdk": "^2.814.0",
     "date-fns": "^2.0.0-beta.2",
     "hbs": "^4.0.4",
     "nodemailer": "^6.2.1",
